@@ -1,3 +1,3 @@
-FROM rancher/hyperkube-base:v0.0.17
+FROM rayandas/hyperkube-base:nfs1
 
 COPY k8s-binaries/kube* /usr/local/bin/
